@@ -1,2 +1,0 @@
-# OlaMundostart
-Varios Projetos Iniciantes

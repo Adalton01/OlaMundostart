@@ -10,12 +10,15 @@ main()
     else if ( tamanho == 'M' || tamanho == 'N')
         printf("Desse so temos Tamanho M \n");
     else if (tamanho =='x' || tamanho == 'X')
-        printf("Deste tamanho X Temos 2 Unid  \n");
+        printf("Este tamanho X Temos 2 Unid  \n");
     else
         printf("Digite Somente G,P,M,N . \a");
 
     system("pause");
 }
+
+
+
 
 
 

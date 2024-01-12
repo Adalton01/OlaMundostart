@@ -1,0 +1,48 @@
+body {
+    background: rgb(11, 11, 146);
+    color: white;
+    text-align: center;
+    font: normal 15pt Arial;
+}
+
+img {
+    padding-top: 13px;
+    padding-left: 100px;
+}
+
+#cor {
+    background: white;
+    box-shadow: 5px 5px 10px black;
+    width: 500px;
+    margin: auto;
+    color: black;
+
+}
+
+#txt {
+    padding-right: 100px;
+
+}
+
+footer {
+    padding-top: 15px;
+}
+
+#ponto {
+    padding-left: 6px;
+
+}
+
+#btn {
+    padding-right: 30px;
+}
+
+#res {
+    padding-right: 250px;
+    color: rgb(220, 219, 231);
+    background: rgb(130, 2, 2);
+}
+
+#dev {
+    padding-top: 18px;
+}

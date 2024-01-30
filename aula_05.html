@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div com DOM</title>
+  <footer>Div c/DOM</footer>
+  <link rel="stylesheet" href="aula_05.css">
+</head>
+
+<body>
+  <div id="n1">Cores</div>
+
+  <script>
+    function adw ()
+    {
+      var nome = window.prompt( "Seu Nome" );
+
+      var mensagem = document.createElement( "h1" );
+      mensagem.textContent = `Olaa ${ nome }`;
+      mensagem.style.background = "white"
+      document.body.appendChild( mensagem );
+
+      var element = document.getElementById( "n1" );
+      element.style.background = "red"
+
+    }
+    function lo ()
+    {
+      var aa = document.getElementById( "n1" ).addEventListener( "click", adw );
+
+    }
+    window.addEventListener( "load", lo );
+
+
+
+  </script>
+ 
+
+
+</body>
+
+</html>

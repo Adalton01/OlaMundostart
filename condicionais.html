@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radar</title>
+    <footer>Multa de Transito</footer>
+</head>
+
+<body>
+    <br>
+    Velocidade <input type="number" name="velocidade" id="velo">
+    <input type="button" value="OK" id="km" onclick="clic()">
+    <div id="res" style="width: 100px; height: 100px; margin-left: 30%;margin-top: 5%; background-color: rgb(175, 151, 197);">KM
+    </div>
+
+    <script>
+        function clic ()
+        {
+            var n1 = document.getElementById( "velo" );
+            var res = document.getElementById( "res" );
+            var cal = Number( n1.value )
+
+            if (cal< 50) {
+             res.innerHTML = `Velocidade Adequada ${ cal }`    
+            }
+
+            else{
+                res.innerHTML = `Multado ${ cal }`    
+
+            }
+           
+
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 01</title>
+    <style>
+        body {
+            background-image: linear-gradient(To right, rgb(213, 212, 222), rgb(255, 85, 0), #846cc3, rgb(32, 151, 54))
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(234, 225, 225);
+            font: normal 100 Arial;
+
+        }
+
+      
+    </style>
+</head>
+
+<body>
+    <div id="msg">ola div</div>
+    <h1>Aula 01 JS</h1>
+    <p class="p1">Teste</p>
+    <p id="p3">Teste exemplo 2</p>
+    <script>
+
+
+        //Dom é Modelo de Objetos P/Docunmentos 
+        /*podendo ser acessado por
+        marca/seletor/class/ID/nome */
+
+
+        /*window.alert("Vamos Inicia") //mostra um ok
+         var n1= window.prompt("Qual seu nome ")//mostra um ok ou cancela com a menssagem       
+         window.alert(`Obrigado ${n1}`)*/
+        var corpo = window.document.body
+        corpo.style.background = "red"
+        corpo.style.color = "White"
+
+        // window.document.write(window.document.URL) //coletando numero de URL
+        var p1 = window.document.getElementsByTagName("h1")["0"]
+
+        p1.style.color = "white "
+
+        var muda = window.document.getElementsByClassName("p1")[0]
+        muda.style.background = "black"//mudando as cores 
+        muda.style.color = "orange"
+        var muda = window.document.getElementsByClassName("p1")[0].innerText = ("Ola novo texto")//mudando o texto
+        var novo = window.document.getElementById("p3")//como nao esta no plural nao prescisa []
+        novo.style.background = "green"
+        novo.style.color = "black"
+        // window.document.getElementById("p3").innerText="novo texto "//colocando novo texto
+        // novo.innerText = "Outro modo para add texto"
+
+        var nov01 = window.document.querySelector("div#msg")
+        //caso seja class fica assim abaixo
+        //var nov01 =window.document.querySelector("div.msg")
+        nov01.style.background = "White"
+        nov01.style.color = "black"
+
+
+
+        //para Div #
+        //para class .
+
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+body {
+    background-image: url("Planet9_Wallpaper_5000x2813.jpg");
+    background-size: cover;
+
+
+}
+
+p {
+
+    font: normal 40pt Arial;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+#txtn1 {
+  
+    align-items: center;
+    margin-left: 140px;
+    background-color: brown;
+    color: white;
+
+  
+}
+
+#txtn2 {
+    align-self: center;
+    background-color: blue;
+    margin-top: 40px;
+    margin-left: 161px;
+    color: white;
+ 
+
+
+
+}

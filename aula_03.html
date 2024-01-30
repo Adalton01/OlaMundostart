@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: blue;
+            color: aliceblue;
+        }
+
+        #res{
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Somando Valores</h1>
+    <input type="number" name="txtn1" id="txtn1">
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="somar" onclick="somar()">
+    <div id="res">Resultado</div>
+
+    <script>
+        function somar() {
+            var tn1 = window.document.getElementById("txtn1")//de 2 modos 
+            var tn2 = window.document.querySelector("input#txtn2")
+            var res=window.document.getElementById("res")
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var s = n1 + n2
+            res.innerHTML=`Resultado entre ${n1}+${n2} =${s}`
+            
+            var i3 = window.document.getElementById("res")
+            i3.style.background="red"
+            i3.style.color="white"
+            i3.style.textAlign="center"
+            i3.style.width="20%"
+            
+        }
+
+    </script>
+
+</body>
+
+</html>

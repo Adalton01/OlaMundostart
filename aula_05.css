@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(3, 46, 106);
+    color: rgb(7, 133, 244);
+    text-align: center;
+    margin-top: 5%;
+
+
+
+}
+
+#n1 {
+  
+    width: 100px;
+    height: 100px;    
+    margin-left: 45%;
+    margin-top: 3%;
+    background-color: white;
+    color: rgb(16, 17, 16) ;
+  
+
+}

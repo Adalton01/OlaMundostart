@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de ano</title>
+    <link rel="stylesheet" href="idade.css">
+</head>
+
+<body>
+
+    <head>
+        <h1>Verificando sua idade</h1>
+    </head>
+    <section id="cor">
+        <div>
+            <p>Digite ano de nascimento
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+
+            <p>Sexo :
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="fem">Feminino</label>
+                <input type="radio" name="radsex" id="fem">
+            </p>
+            <p><input type="button" value=" Verificar" id="btn"  onclick="veri()"></p>
+        </div>
+
+        <div id="res">
+            <p>
+                Seu resultado é !!!
+            </p>
+        </div>
+        
+
+
+    </section>
+    <footer>
+        &copy; Dev Dalton
+    </footer>
+<script src="idade.js"></script>
+
+</body>
+
+</html>

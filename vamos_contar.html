@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vamos contar</title>
     <link rel="stylesheet" href="vamos.css">
 </head>
-<body>
-<head>
-    <h1>Vamos contar</h1>
-    <section>
-        <div id="se"> 
-            
-            <p>Inicio :<input id="ini" type="number" min="0"></p>
-            <p>Fim :   <input type="number"  min="0" id="fim"></p>
-            <p>Passo : <input type="number" min="0" id="passo"></p>
-            <p><input type="button" value="contar" id="cont" onclick="calc()"></p>
-          
-        </div>
-        <div id="res">
-      Preparando a contagem ...
-        </div>
 
-      
-    </section>
-    <footer>&copy; Dev Dalton</footer>
-   <script src="vamos.js"></script>
+<head>
+    <h1>Contador</h1>
 </head>
+<section>
+
+    <div id="val">
+        <br>
+        <p> Inicio : <input type="number" title="inicio" id="ini"></p>
+        <p> Fim : <input type="number" title="fim" id="fim"></p>
+        <p> Passo : <input type="number" title="passo" id="pas"></p>
+        <p><input type="button" value="Salto" id="btn" onclick="start()"></p>
+    </div>
+    <div id="res">Resultado :<br></div>
     
+
+</section>
+<br>
+<footer>&copy; Dev Dalton</footer>
+<script src="vamos.js"></script>
+
+<body>
+
 </body>
+
 </html>

@@ -1,0 +1,38 @@
+body {
+    background: rgba(7, 7, 185, 0.918);
+    color: rgb(248, 244, 244);
+    text-align: center;
+}
+
+#res {
+    background-color: rgb(240, 240, 240);
+    width: 200px;
+    height: 300px;
+    color: rgb(9, 1, 0);
+    margin-left: 31%;
+    margin-block: -341px;
+    font: normal Arial 15pt;
+
+
+
+}
+
+footer {
+    margin-top: 55%;
+}
+
+#pri {
+    width: 400px;
+    height: 400px;
+    background: white;
+    margin: auto;
+}
+
+#bass {
+    margin: auto;
+    color: black;
+}
+
+#btn {
+    background: rgb(9, 247, 9);
+}

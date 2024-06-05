@@ -1,0 +1,31 @@
+body{
+    font: normal Arial 15pt;
+    background-color: rgba(32, 43, 196, 0.823);
+    color: white;
+    text-align: center;
+}
+
+
+#fim{
+border-radius: 12px;
+border-color:rgb(16, 226, 8);
+box-shadow: 12px 12px 12px rgb(27, 27, 26);
+
+}
+
+#res{
+    margin-top: 30px;
+    height:auto;
+    width: auto;
+    background-color: white;
+    position: relative;
+    right: 60px;
+    text-align: center;
+    text-align: unset;
+    color: black;
+    display: inline-block;
+    border:solid rgb(6, 144, 6) 4px;
+}
+#list01{
+    width: 400px;
+}

@@ -1,9 +1,0 @@
-
-Plataforma	Duração do Vídeo	Faixa de Preço (R$)
-Kwai / TikTok	Pacote 5 vídeos curtos	200
-Imobiliária	Vídeo único	300 - 600
-Imobiliária	Pacote 5 vídeos	1.200 - 1.800
-YouTube	Vídeo curto (até 5 min)	150 - 300
-YouTube	Vídeo médio (5 a 15 min)	300 - 600
-YouTube	Vídeo longo (15+ min)	600 - 1.000
-YouTube	Pacote 5 vídeos curtos	600 - 1.200

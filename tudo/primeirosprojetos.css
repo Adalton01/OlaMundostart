@@ -1,0 +1,38 @@
+body {
+    background: blue;
+    color: azure;
+    font: normal 15pt arial;
+}
+
+head {
+    color: white;
+    text-align: center;
+
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    /*centraliza elemento */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.577);
+    /* essa linha de código cria uma sombra preta com um deslocamento de 5 pixels para a direita e 5 pixels para baixo, com um desfoque de 10 pixels. Essa sombra estará ao redor do elemento HTML*/
+    color: black;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+}
